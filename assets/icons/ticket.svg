@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="57" height="50.168" viewBox="0 0 57 50.168">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.185" y1="1.112" x2="0.969" y2="0.026" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#667abc"/>
+      <stop offset="0.206" stop-color="#5e82c2"/>
+      <stop offset="0.528" stop-color="#4998d3"/>
+      <stop offset="0.924" stop-color="#27bcee"/>
+      <stop offset="1" stop-color="#20c4f4"/>
+    </linearGradient>
+  </defs>
+  <path id="ticket_1_" data-name="ticket (1)" d="M52,30.824a2.36,2.36,0,0,1,3.006,1.429L57,37.849l-.314.28a8.453,8.453,0,0,0-2.792,6.85l.046.668H10.326ZM2.356,48.4H13.286v7a1.375,1.375,0,0,0,2.751,0v-7H54.561a2.356,2.356,0,0,1,2.354,2.354v5.94l-.391.159a8.393,8.393,0,0,0,0,15.555l.391.158V78.5a2.356,2.356,0,0,1-2.354,2.355H16.037v-7a1.375,1.375,0,1,0-2.751,0v7H2.353A2.356,2.356,0,0,1,0,78.5V72.563l.39-.158a8.421,8.421,0,0,0,5.239-7.777A8.421,8.421,0,0,0,.39,56.85L0,56.692v-5.94A2.355,2.355,0,0,1,2.344,48.4Zm13.68,12.778a1.375,1.375,0,1,0-2.751,0v6.9a1.375,1.375,0,1,0,2.751,0Z" transform="translate(0 -30.689)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+</svg>

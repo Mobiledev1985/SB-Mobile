@@ -1,0 +1,37 @@
+abstract final class RoutePaths {
+  static const String submitCatchReport = "/submitCatchReport";
+  static const String catchReport = "/catchReport";
+  static const String exclusiveMedia = "/exclusiveMedia";
+  static const String profileScreen = "/profileScreen";
+  static const String progressScreen = "/progressScreen";
+  static const String catchesScreen = "/catchesScreen";
+  static const String statisticsScreen = "/statisticsScreen";
+  static const String myDetailsScreen = "/myDetailsScreen";
+  static const String myMembershipsScreen = "/myMembershipsScreen";
+  static const String bookingsScreen = "/bookingsScreen";
+  static const String viewTicketScreen = "/viewTicketScreen";
+  static const String favoritesScreen = "/favoritesScreen";
+  static const String walletScreen = "/walletScreen";
+  static const String allEarnedCreditScreen = "/allEarnedCreditScreen";
+  static const String offerScreen = "/offerScreen";
+  static const String offerDetailScreen = "/offerDetailScreen";
+  static const String offerListScreen = "/offerListScreen";
+  static const String fisheryDisountListScreen = "/fisheryDisountListScreen";
+  static const String insuranceScreen = "/insuranceScreen";
+  static const String sessionScreen = "/sessionScreen";
+  static const String giveawayScreen = "/giveawayScreen";
+  static const String sessionDetailScreen = "/sessionDetailScreen";
+  static const String yourNoteScreen = "/yourNoteScreen";
+  static const String featureListScreen = "/featureListScreen";
+  static const String subscriptionPurchased = "/subscriptionPurchased";
+  static const String sbPlusPurchaseScreen = "/sbPlusPurchaseScreen";
+  static const String sbIntroductionScreen = "/sbIntroductionScreen";
+  static const String tierSectionScreen = "/tierSectionScreen";
+  static const String sbPlusWelcomeScreen = "/sbPlusWelcomeScreen";
+  static const String loginScreen = "/loginScreen";
+  static const String notificationListScreen = "/notificationListScreen";
+  static const String signupScreen = "/angler/signup";
+  static const String catchReportListingScreen = "/catchReportListingScreen";
+  static const String locationSiteMap = "/locationSiteMap";
+  static const String howToBook = "/howToBook";
+}

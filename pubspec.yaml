@@ -1,0 +1,207 @@
+name: sb_mobile
+description: A new Flutter application.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# version: 1.2.2+6
+
+# android
+version: 1.2.2+124
+
+environment:
+  sdk: ">=3.0.5 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_inappwebview: ^5.7.2+3
+  flutter_screenutil: ^5.8.4
+  url_launcher: ^6.1.11
+  cupertino_icons: ^1.0.5
+  favorite_button: ^0.0.4
+  google_maps_flutter: ^2.5.0
+  fluster: ^1.2.0
+  uuid: ^3.0.7
+  syncfusion_flutter_datepicker: ^21.2.3
+  im_stepper: ^0.1.2+10
+  flutter_bloc: ^8.1.3
+  equatable: ^2.0.3
+  flutter_markdown: ^0.6.15+1
+  flutter_rating_bar: ^4.0.0
+  table_sticky_headers: ^2.0.0
+  webview_flutter: ^4.2.2
+  webview_cookie_manager: ^2.0.0
+  overlay_support: ^2.1.0
+  carousel_slider: ^4.2.1
+  timeago: ^3.0.1
+  path_provider: ^2.1.1
+  image_cropper: ^5.0.0
+  image_picker: ^1.0.0
+  hive: ^2.2.3
+  flutter_svg: ^2.0.10+1
+  hive_flutter: ^1.1.0
+  encrypt: ^5.0.1
+  flutter_colorful_tab: ^0.1.0
+  jiffy: ^4.0.0
+  dio_cookie_manager: ^2.0.0
+  http: ^1.1.0
+  auto_size_text: ^3.0.0
+  dio: ^4.0.0
+  photo_view: ^0.14.0
+  dotted_border: ^2.0.0+3
+  firebase_core: ^2.20.0
+  firebase_messaging: ^14.7.4
+  flutter_local_notifications: ^16.0.0
+  bloc: ^8.1.2
+  meta: ^1.9.1
+  flutter_typeahead: ^4.6.2
+  easy_stepper: ^0.7.3
+  cached_network_image: ^3.2.3
+  cookie_jar: ^3.0.1
+  intl: ^0.17.0
+  provider: ^6.0.5
+  share_plus: ^7.1.0
+  flutter_statusbarcolor_ns: ^0.5.0
+  shared_preferences: ^2.1.2
+  introduction_screen: ^3.1.11
+  markdown: ^7.1.1
+  lottie: ^2.6.0
+  in_app_purchase: ^3.1.11
+  in_app_purchase_storekit: ^0.3.6+7
+  flutter_pdfview: ^1.3.2
+  avoid_keyboard: ^0.3.0
+  upgrader: ^8.4.0
+  infinite_scroll_pagination: ^4.0.0
+  package_info_plus: ^5.0.1
+  device_info_plus: ^9.1.1
+  custom_info_window: ^1.0.1
+  just_the_tooltip: ^0.0.12
+  skeletonizer: ^1.1.0
+  flutter_img: ^0.1.6+148
+  jovial_svg: ^1.1.20
+  showcaseview: ^2.0.3
+
+  # Test Libs
+  # Internet connection modules
+  # provider: ^6.0.5
+  # internet_connection_checker: ^1.0.0+1
+  # logger: ^1.1.0
+  # dartz: ^0.10.0
+  #deprecated
+  # fswitch: ^1.1.2
+  #deprecated
+  # image_slider: ^1.0.2
+  #deprecated
+  # carousel_pro: ^1.0.0
+  # solid_bottom_sheet: ^0.1.10
+  # random_date: ^0.0.5
+  # lazy_loading_list: ^1.0.1
+  # flutter_webview_plugin: ^0.4.0
+  #deprecated
+  # md2_tab_indicator:
+  # ^1.0.2
+  #deprecated
+  # flutter_search_bar: ^2.1.0
+  # custom_navigation_bar: ^0.8.2
+  # persistent_bottom_nav_bar: ^4.0.2
+  # sliding_up_panel:
+  #   ^2.0.0+1
+  #deprecated
+  # platform_alert_dialog: ^1.0.0+2
+  # tabbar: ^0.1.1
+  # awesome_dialog: ^2.1.0
+  # circular_profile_avatar: ^2.0.5
+
+  # References WIP
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # flutter_launcher_icons: ^0.8.1
+  flutter_launcher_icons: ^0.13.1
+  build_runner: ^2.4.5
+  hive_generator: ^2.0.0
+  flutter_lints: ^2.0.0
+  dart_code_metrics: ^4.19.2
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/search/blue_fish.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    # - assets/home_page/card_pic.jpg
+    - assets/search/
+    - assets/species/
+    - assets/pdf/
+    # - assets/nav/
+    - assets/search/filters/
+    # - assets/home_page/
+    # - assets/all/
+    # - assets/common/
+    # - assets/custom_icons/
+    - assets/fishery_profile/
+    - assets/fishery_profile/facilities/
+    # - assets/fishery_profile/contact/
+    # - assets/user_bookings/
+    - assets/auth/
+    # - assets/logos/
+    # - assets/booking_flow/
+    - assets/
+    - assets/images/placeholder.jpg
+    - assets/images/
+    - assets/images/catch_report/
+    - assets/gif/
+    - assets/icons/
+    - assets/
+    - assets/weather/
+    - assets/moons/
+
+  fonts:
+    - family: Gilroy
+      fonts:
+        - asset: fonts/Gilroy-Black.ttf
+        - asset: fonts/Gilroy-Bold.ttf
+        - asset: fonts/Gilroy-ExtraBold.ttf
+        - asset: fonts/Gilroy-Light.ttf
+        - asset: fonts/Gilroy-Medium.ttf
+        - asset: fonts/Gilroy-SemiBold.ttf
+        - asset: fonts/Gilroy-Thin.ttf
+
+    - family: sb_gilroy
+      fonts:
+        - asset: fonts/gilroyBold.otf
+
+        - asset: fonts/Gilroy-Regular.ttf
+          weight: 400
+
+        - asset: fonts/gilroyLight.otf
+          weight: 300
+
+        - asset: fonts/Gilroy-Medium.ttf
+          weight: 500
+
+        - asset: fonts/gilroySemiBold.otf
+          weight: 600
+
+    - family: sb_radomir
+      fonts:
+        - asset: fonts/RadomirTinkov_ Gilroy_Bold.otf
+        - asset: fonts/RadomirTinkov_Gilroy_Light.otf
+        - asset: fonts/RadomirTinkov_Gilroy_SemiBold.otf
+          weight: 600
+
+    - family: Montserrat
+      fonts:
+        - asset: fonts/Montserrat-Black.ttf
+        - asset: fonts/Montserrat-Bold.ttf
+        - asset: fonts/Montserrat-ExtraBold.ttf
+        - asset: fonts/Montserrat-ExtraLight.ttf
+        - asset: fonts/Montserrat-Light.ttf
+        - asset: fonts/Montserrat-Medium.ttf
+        - asset: fonts/Montserrat-Regular.ttf
+        - asset: fonts/Montserrat-SemiBold.ttf
+        - asset: fonts/Montserrat-Thin.ttf

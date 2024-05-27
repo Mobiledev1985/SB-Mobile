@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33.33" height="43.756" viewBox="0 0 33.33 43.756">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00b59c"/>
+      <stop offset="1" stop-color="#9cffac"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c3ffe8"/>
+      <stop offset="0.997" stop-color="#f0fff4"/>
+    </linearGradient>
+  </defs>
+  <g id="insurance" transform="translate(-61 0)">
+    <g id="Group_75" data-name="Group 75" transform="translate(61 0)">
+      <g id="Group_74" data-name="Group 74" transform="translate(0)">
+        <path id="Path_420" data-name="Path 420" d="M93.048,6.976C85.952,6.976,78.6.4,78.526.333a1.282,1.282,0,0,0-1.722,0C76.73.4,69.4,6.976,62.282,6.976A1.282,1.282,0,0,0,61,8.258V23.61c0,12.437,9.25,17.406,16.208,20.062a1.283,1.283,0,0,0,.914,0C87.878,39.948,94.33,34.138,94.33,23.61V8.258A1.282,1.282,0,0,0,93.048,6.976Z" transform="translate(-61 0)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="Group_77" data-name="Group 77" transform="translate(68.691 12.905)">
+      <g id="Group_76" data-name="Group 76">
+        <path id="Path_421" data-name="Path 421" d="M159.973,151a8.973,8.973,0,1,0,8.973,8.973A8.984,8.984,0,0,0,159.973,151Zm3.47,8.6-3.846,3.846a1.282,1.282,0,0,1-1.813,0l-1.282-1.282a1.282,1.282,0,0,1,1.813-1.813l.376.375,2.939-2.939a1.282,1.282,0,1,1,1.813,1.813Z" transform="translate(-151 -151)" fill="url(#linear-gradient-2)"/>
+      </g>
+    </g>
+  </g>
+</svg>
